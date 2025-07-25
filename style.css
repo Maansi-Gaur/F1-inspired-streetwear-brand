@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ccc;
+}
+nav a:hover {
+  color: #fff;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #000, #111, #000);
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #aaa;
+}
+.hero button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 60px 20px;
+}
+.card {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+.card-img {
+  background-color: #222;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #aaa;
+  margin-bottom: 16px;
+}
+.card button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #666;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.about {
+  padding: 80px 20px;
+  background-color: #0d0d0d;
+  text-align: center;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #aaa;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+  color: #888;
+}
